@@ -20,7 +20,7 @@ putchar(number_left);
 putchar(number_right);
 
 
-if ((number_left == 57) && (number_right == 89))
+if ((number_left == 58) && (number_right == 89))
 {
 break;
 }
