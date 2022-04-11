@@ -20,7 +20,7 @@ putchar('0' + number_left);
 putchar('0' + number_right);
 
 
-if ( number_left < 8 )
+if (number_left < 8)
 {
 	 putchar(',');
 	 putchar (' ');
