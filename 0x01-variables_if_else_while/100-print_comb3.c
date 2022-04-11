@@ -11,22 +11,20 @@ int number_left;
 int number_right;
 
 
-for (number_left = 44; number_right <= 88; number_left++)
+for (number_left = 0; number_left <= 9; number_left++)
 {
-for (number_right = number_left + 1 ; number_right <= 88; number_right++)
+for (number_right = number_left + 1; number_right <= 9; number_right++)
 {
 
-putchar(number_left);
-putchar(number_right);
+putchar('0' + number_left);
+putchar('0' + number_right);
 
 
-if ((number_left == 58) && (number_right == 88))
+if ( number_left < 8 )
 {
-break;
+	 putchar(',');
+	 putchar (' ');
 }
-
-putchar(',');
-putchar (' ');
 
 }
 
