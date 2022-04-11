@@ -22,8 +22,8 @@ putchar('0' + number_right);
 
 if (number_left < 8)
 {
-	 putchar(',');
-	 putchar (' ');
+putchar(',');
+putchar (' ');
 }
 
 }
