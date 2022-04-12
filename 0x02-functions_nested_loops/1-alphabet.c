@@ -5,19 +5,15 @@
  * Description: _putchar print lowercase alphabet
  * Return: 0
  */
-
 void print_alphabet(void)
 {
-char cm;
+char alphabet;
 
-
-for (cm = 'a'; cm <= 'z'; cm++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(cm);
+_putchar(alphabet);
 }
 
-
 _putchar('\n');
-
 
 }
