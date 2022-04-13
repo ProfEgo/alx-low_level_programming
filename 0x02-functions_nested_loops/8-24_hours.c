@@ -24,11 +24,11 @@ for (num2 = '0'; num2 <= '2'; num2++)
 		{
 			for (num5 = '0'; num5 <= '9'; num5++)
 			{
-			_putchar(num2 + '0');
-			_putchar(num3 + '0');
+			_putchar(num2);
+			_putchar(num3);
 			_putchar(':');
-			_putchar(num4 + '0');
-			_putchar(num5 + '0');
+			_putchar(num4);
+			_putchar(num5);
 			_putchar('\n');
 			}
 
