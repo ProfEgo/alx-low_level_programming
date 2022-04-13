@@ -13,13 +13,13 @@ int _islower(int c)
 
 if (c < 'a' && c > 'z')
 {
-_putchar(0);
+return (0);
 }
 
 else
 {
-_putchar(1);
+ruturn(0);
 }
 
-return (0);
+_putchar('\n');
 }
