@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_to_98 -prints every minute of the day
  * @n: int value
@@ -11,29 +11,25 @@ void print_to_98(int n)
 
 	if (n < 98)
 	{
-		for (n = 'n'; n <= 98; n++)
+		for (n = n; n <= 98; n++)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 
 	}
 
 	else if (n > 98)
 	{
-		for (n = 'n'; n >= 98; n--)
+		for (n = n; n >= 98; n--)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
 
-	else
+	else if (n == 98)
 	{
-		_putchar(n);
-
+		printf("%d, ", n);
 	}
+
 
 }
