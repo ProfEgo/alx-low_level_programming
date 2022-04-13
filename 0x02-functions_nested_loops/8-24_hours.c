@@ -9,10 +9,10 @@
 void jack_bauer(void)
 {
 
-int num2;
-int num3;
-int num4;
-int num5;
+unsigned int num2;
+unsigned int num3;
+unsigned int num4;
+unsigned int num5;
 
 
 
