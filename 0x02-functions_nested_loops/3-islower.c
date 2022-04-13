@@ -2,16 +2,14 @@
 
 /**
  * _islower - Entry point
- * Description: _putchar print lowercase alphabet
- * c - int
- * Descriptio: hold an intigal
+ * @c: Entry value
+ * Description: _islower print lowercase alphabet
+ * Descript: intergral 'c'
  * Return: 0
  */
 
 int _islower(int c)
 {
-
-int c;
 
 if (c < 'a' && c > 'z')
 {
@@ -23,4 +21,5 @@ else
 _putchar(1);
 }
 
+return (0);
 }
