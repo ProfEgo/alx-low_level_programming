@@ -3,7 +3,6 @@
 
 /**
  * _abs - Entry point
- * @r: Entry value
  * Description: _islower print lowercase alphabet
  * Descript: intergral 'c'
  * Return: 0
@@ -11,7 +10,6 @@
 
 int _abs(int)
 {
-int r;
 
 if (r < 0)
 {
