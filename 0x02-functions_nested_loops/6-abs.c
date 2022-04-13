@@ -26,5 +26,5 @@ else
 {
 _putchar(r);
 }
-return (0);
+return (r);
 }
