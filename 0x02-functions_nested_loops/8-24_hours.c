@@ -31,6 +31,7 @@ for (num1 = 0; num1 <= 1440; num1++)
 				_putchar(':');
 				_putchar(num4 + '0');
 				_putchar(num5 + '0');
+				_putchar('\n');
 				}
 
 			}
