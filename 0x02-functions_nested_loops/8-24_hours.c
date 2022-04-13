@@ -9,10 +9,10 @@
 void jack_bauer(void)
 {
 
-long num2;
-long num3;
-long num4;
-long num5;
+float num2;
+float num3;
+float num4;
+float num5;
 
 
 
