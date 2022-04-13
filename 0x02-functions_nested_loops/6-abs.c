@@ -1,0 +1,27 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _abs - Entry point
+ * @r: Entry value
+ * Description: _islower print lowercase alphabet
+ * Descript: intergral 'c'
+ * Return: 0
+ */
+
+int _abs(int r)
+{
+
+
+if (r < 0)
+{
+_putchar(r * (-1));
+}
+
+
+else
+{
+_putchar(r);
+}
+return (0);
+}
