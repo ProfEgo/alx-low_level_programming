@@ -18,8 +18,8 @@ return (0);
 
 else
 {
-ruturn(0);
+return (0);
 }
 
-_putchar('\n');
+
 }
