@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * _abs - Entry point
+ * _abs - Absolute value
+ * @r: Entry value
  * Description: _islower print lowercase alphabet
  * Descript: intergral 'c'
  * Return: 0
  */
 
-int _abs(int)
+int _abs(int r)
 {
 
 if (r < 0)
