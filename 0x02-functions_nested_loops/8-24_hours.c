@@ -16,7 +16,7 @@ int num4;
 int num5;
 
 
-for (num1 = 0; num1 <= 1440; num1++)
+for (num1 = 0; num1 <= 1; num1++)
 {
 	for (num2 = 0; num2 < 3; num2++)
 	{
