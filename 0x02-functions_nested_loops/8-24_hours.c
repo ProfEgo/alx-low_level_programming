@@ -8,14 +8,11 @@
 
 void jack_bauer(void)
 {
-int m;
 int num2;
 int num3;
 int num4;
 int num5;
 
-for (m = '0'; m < 1440; m++)
-{
 	for (num2 = 0; num2 <= 2; num2++)
 	{
 		for (num3 = 0; num3 <= 3; num3++)
@@ -34,6 +31,4 @@ for (m = '0'; m < 1440; m++)
 			}
 		}
 	}
-_putchar('\n');
-}
 }
