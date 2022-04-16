@@ -29,6 +29,7 @@ for (m = '0'; m < 1440; m++)
 					_putchar(':');
 					_putchar(num4 + '0');
 					_putchar(num5 + '0');
+					_putchar('\n');
 				}
 			}
 		}
