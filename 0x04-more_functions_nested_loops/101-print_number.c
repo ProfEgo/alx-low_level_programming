@@ -13,11 +13,6 @@ void print_number(int n)
 		n = -n;
 	}
 	
-	if (n > 0 && n < 9)
-	{
-		_putchar(n + '0');
-	}
-	
 	if(n > 9)
 	{
 		_putchar((n/10) + '0');
