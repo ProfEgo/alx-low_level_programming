@@ -4,17 +4,17 @@
 
 /**
  * main - original function
- * @num: new varirable
+ * @n: new varirable
  *
  * return 0.
  */
 int main(void)
 {
-int num;
+int n;
 
 srand(time(0));
-num = rand()- RAND_MAX / 2;
-	printf("%i\n", num);
+n = rand();
+	printf("Tada! Congrats %c\n", n);
 
 return (0);
 }
