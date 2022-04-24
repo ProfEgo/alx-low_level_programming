@@ -20,7 +20,3 @@ str[i] = str[i] - 32;
 
 return (str);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Secur
